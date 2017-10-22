@@ -9,7 +9,8 @@ class ApiConnector {
 
   getRecipes(){
     return this._delay().then(()=>{
-      return this.getJson(RECIPES_URL);
+      // return this.getJson(RECIPES_URL); 
+      return require('./db.json').recipes;
     });
   }
 
