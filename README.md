@@ -1,15 +1,10 @@
 # WarsawJS Workshop #11 - Smart Cookbook
 ### MobX Version
 
-## TODO steps
-1. Użyj `create-react-app` do stworzenia projektu
-1. Wywołaj skrypt `npm run eject`
-1. zainstaluj `babel-plugin-transform-decorators-legacy`
-1. Dodaj do kofiguracji babela:
-  ```
-  "plugins": [
-    "transform-decorators-legacy"
-  ]
-  ```
+Demo: https://recipe-app-mobx.netlify.com/#/recipes-list
 
-1. Create rootStore, apiConnector,
+To use localy simply:
+
+1. git clone https://github.com/Blazej6/warsawjs-workshop-11-smart-cookbook
+2. npm install
+3. npm start
